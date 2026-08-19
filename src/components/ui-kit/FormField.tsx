@@ -7,10 +7,10 @@ const controlClass =
 
 type BaseProps = {
   label: string;
-  error?: string;
-  hint?: string;
-  required?: boolean;
-  className?: string;
+  error?: string | undefined;
+  hint?: string | undefined;
+  required?: boolean | undefined;
+  className?: string | undefined;
 };
 
 function Wrapper({
